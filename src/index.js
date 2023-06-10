@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import MyTaskCard from "./components/MyTaskCard";
+
+import "./index.css";
+
+import MyTasksCard from "./components/MyTasksCard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MyTaskCard />
+    <MyTasksCard />
   </React.StrictMode>
 );
 

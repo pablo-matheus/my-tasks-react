@@ -5,7 +5,7 @@ import config from "../../config.json";
 
 import "./index.css";
 
-function MyTaskCard() {
+function MyTasksCard() {
   const [title, setTitle] = useState("");
   const [dueDate, setDueDate] = useState("");
   const [tasks, setTasks] = useState([]);
@@ -137,4 +137,4 @@ function MyTaskCard() {
   );
 }
 
-export default MyTaskCard;
+export default MyTasksCard;
