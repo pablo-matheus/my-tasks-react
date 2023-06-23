@@ -1,3 +1,20 @@
+# How to Run This Project
+
+- Install the dependencies:
+```
+$ npm install
+```
+
+- Start JSON Server:
+```
+$ npm run json-server
+```
+
+- Start the project's frontend:
+```
+$ npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
